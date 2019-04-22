@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: black;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.logo {
+	width: 20%;
+}
+
+#bio{
+	position: absolute;
+	float: left;
+	margin-left: 30%;
+	margin-top: 2vh;
+	width: 20%;
+	mix-blend-mode: normal;
+}
+
+p{
+	font-family: 'Oswald', sans-serif;
+	text-align: justify;
+	font-weight: 200;
+    font-size: 2vh;
+	color: white;
+}
+
+#portrait{
+	position: absolute;
+	float: left;
+	margin-left: 55%;
+	margin-top: 4.5vh;
+	width: 15%;
+}
+
+img{
+	width: 100%;
+}
+
+/* Style the footer */
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  mix-blend-mode:difference;
+  background-color: #000;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: -5%;
+}
+
+li {
+	position:relative;
+  	float: left;
+	
+}
+
+.navlink {
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 2vh;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  mix-blend-mode:difference;
+  color: #fff;	
+}
+
+a:hover{
+	color: orange;
+	transition: 0.5s;
+	mix-blend-mode: normal;
+}
+
+@media (max-width: 600px) {
+  
+	.logo {
+	  width: 50%;
+	}
+	
+	#bio {
+		width: 45%;
+		margin-left: 10%;
+		
+	}
+	
+	#portrait{
+	margin-left: 60%;
+	width: 30%;
+    }
+	
+	ul{
+	  margin-left: -12.5%;
+	}
+}
